@@ -1,52 +1,66 @@
 package com.example.AddressBook.model;
 
-import com.example.AddressBook.dto.AddressDTO;
 import jakarta.persistence.*;
 import lombok.*;
 
 @Entity
-@Data
+@Getter
+@Setter
 @NoArgsConstructor
 @AllArgsConstructor
+@ToString
 public class AddressModel {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-
     private String name;
-    private String email;
-    private String phoneNumber;
     private String address;
+    private String city;
+    private String state;
+    private String zip;
+    private String phoneNumber;
 
-    public AddressModel(AddressDTO addressDTO) {
-        this.name = addressDTO.getName();
-        this.email = addressDTO.getEmail();
-        this.phoneNumber = addressDTO.getPhoneNumber();
-        this.address = addressDTO.getAddress();
-    }
-
+public  Long getId() {
+    return id;
+}
     public String getName() {
         return name;
-    }
-    public String getEmail() {
-        return email;
-    }
-    public String getPhoneNumber() {
-        return phoneNumber;
     }
     public String getAddress() {
         return address;
     }
+    public String getCity() {
+        return city;
+    }
+    public String getState() {
+        return state;
+    }
+    public String getZip() {
+        return zip;
+    }
+    public String getPhoneNumber() {
+        return phoneNumber;
+    }
     public void setName(String name) {
         this.name = name;
-    }
-    public void setEmail(String email) {
-        this.email = email;
-    }
-    public void setPhoneNumber(String phoneNumber) {
-        this.phoneNumber = phoneNumber;
     }
     public void setAddress(String address) {
         this.address = address;
     }
+    public void setCity(String city) {
+        this.city = city;
+    }
+    public void setState(String state) {
+        this.state = state;
+    }
+    public void setZip(String zip) {
+        this.zip = zip;
+    }
+    public void setPhoneNumber(String phoneNumber) {
+        this.phoneNumber = phoneNumber;
+    }
+    public void setId(Long id) {
+        this.id = id;
+    }
+
 }
