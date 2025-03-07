@@ -20,6 +20,8 @@ public class AddressModel {
     private String zip;
     private String phoneNumber;
 
+
+
 public  Long getId() {
     return id;
 }
