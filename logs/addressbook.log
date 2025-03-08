@@ -5407,3 +5407,126 @@ java.lang.Throwable: Runtime.exit(130)
 2025-03-08 15:58:00 [HikariPool-1 connection closer] DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@7a7b0c28: (connection evicted)
 2025-03-08 15:58:00 [SpringApplicationShutdownHook] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - After shutdown stats (total=0, active=0, idle=0, waiting=0)
 2025-03-08 15:58:00 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-03-08 16:02:09 [background-preinit] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider found via system property
+2025-03-08 16:02:09 [background-preinit] DEBUG o.h.v.i.x.config.ValidationXmlParser - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2025-03-08 16:02:09 [background-preinit] DEBUG o.h.v.i.x.c.ResourceLoaderHelper - Trying to load META-INF/validation.xml via TCCL
+2025-03-08 16:02:09 [background-preinit] DEBUG o.h.v.i.x.c.ResourceLoaderHelper - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2025-03-08 16:02:09 [background-preinit] DEBUG o.h.v.i.x.config.ValidationXmlParser - No META-INF/validation.xml found. Using annotation based configuration only.
+2025-03-08 16:02:09 [background-preinit] DEBUG o.h.v.i.e.r.TraversableResolvers - Found jakarta.persistence.Persistence on classpath containing 'getPersistenceUtil'. Assuming JPA 2 environment. Trying to instantiate JPA aware TraversableResolver
+2025-03-08 16:02:09 [background-preinit] DEBUG o.h.v.i.e.r.TraversableResolvers - Instantiated JPA aware TraversableResolver of type org.hibernate.validator.internal.engine.resolver.JPATraversableResolver.
+2025-03-08 16:02:09 [background-preinit] DEBUG o.h.v.m.ResourceBundleMessageInterpolator - Loaded expression factory via original TCCL
+2025-03-08 16:02:09 [restartedMain] INFO  c.e.A.AddressBookApplication - Starting AddressBookApplication using Java 23.0.2 with PID 11708 (C:\Users\HP\Downloads\AddressBook\AddressBook\target\classes started by HP in C:\Users\HP\Downloads\AddressBook\AddressBook)
+2025-03-08 16:02:09 [restartedMain] DEBUG c.e.A.AddressBookApplication - Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-03-08 16:02:09 [restartedMain] INFO  c.e.A.AddressBookApplication - The following 1 profile is active: "dev"
+2025-03-08 16:02:09 [restartedMain] DEBUG o.s.boot.SpringApplication - Loading source class com.example.AddressBook.AddressBookApplication
+2025-03-08 16:02:09 [restartedMain] DEBUG o.s.b.d.restart.ChangeableUrls - Matching URLs for reloading : [file:/C:/Users/HP/Downloads/AddressBook/AddressBook/target/classes/]
+2025-03-08 16:02:09 [restartedMain] DEBUG o.s.b.d.settings.DevToolsSettings - Included patterns for restart : []
+2025-03-08 16:02:09 [restartedMain] DEBUG o.s.b.d.settings.DevToolsSettings - Excluded patterns for restart : [/spring-boot-starter-[\w-]+/, /spring-boot/(bin|build|out)/, /spring-boot-starter/(bin|build|out)/, /spring-boot-devtools/(bin|build|out)/, /spring-boot-actuator/(bin|build|out)/, /spring-boot-autoconfigure/(bin|build|out)/]
+2025-03-08 16:02:09 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-03-08 16:02:09 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-03-08 16:02:09 [restartedMain] DEBUG o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@7c1b7378
+2025-03-08 16:02:09 [restartedMain] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2025-03-08 16:02:09 [background-preinit] DEBUG o.h.v.i.e.ValidatorFactoryConfigurationHelper - HV000252: Using org.hibernate.validator.internal.engine.DefaultPropertyNodeNameProvider as property node name provider.
+2025-03-08 16:02:09 [restartedMain] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.internalCachingMetadataReaderFactory'
+2025-03-08 16:02:09 [background-preinit] DEBUG o.h.v.i.e.ValidatorFactoryConfigurationHelper - HV000234: Using org.hibernate.validator.messageinterpolation.ResourceBundleMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2025-03-08 16:02:09 [background-preinit] DEBUG o.h.v.i.e.ValidatorFactoryConfigurationHelper - HV000234: Using org.hibernate.validator.internal.engine.resolver.JPATraversableResolver as ValidatorFactory-scoped traversable resolver.
+2025-03-08 16:02:09 [background-preinit] DEBUG o.h.v.i.e.ValidatorFactoryConfigurationHelper - HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2025-03-08 16:02:09 [background-preinit] DEBUG o.h.v.i.e.ValidatorFactoryConfigurationHelper - HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2025-03-08 16:02:09 [background-preinit] DEBUG o.h.v.i.e.ValidatorFactoryConfigurationHelper - HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2025-03-08 16:02:10 [restartedMain] DEBUG o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [C:\Users\HP\Downloads\AddressBook\AddressBook\target\classes\com\example\AddressBook\controller\AddressBookController.class]
+2025-03-08 16:02:10 [restartedMain] DEBUG o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [C:\Users\HP\Downloads\AddressBook\AddressBook\target\classes\com\example\AddressBook\controller\AddressController.class]
+2025-03-08 16:02:10 [restartedMain] DEBUG o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [C:\Users\HP\Downloads\AddressBook\AddressBook\target\classes\com\example\AddressBook\exception\GlobalExceptionHandler.class]
+2025-03-08 16:02:10 [restartedMain] DEBUG o.s.c.a.ClassPathBeanDefinitionScanner - Ignored because not a concrete top-level class: file [C:\Users\HP\Downloads\AddressBook\AddressBook\target\classes\com\example\AddressBook\repository\AddressBookRepository.class]
+2025-03-08 16:02:10 [restartedMain] DEBUG o.s.c.a.ClassPathBeanDefinitionScanner - Ignored because not a concrete top-level class: file [C:\Users\HP\Downloads\AddressBook\AddressBook\target\classes\com\example\AddressBook\repository\AddressRepository.class]
+2025-03-08 16:02:10 [restartedMain] DEBUG o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [C:\Users\HP\Downloads\AddressBook\AddressBook\target\classes\com\example\AddressBook\service\AddressBookService.class]
+2025-03-08 16:02:10 [restartedMain] DEBUG o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [C:\Users\HP\Downloads\AddressBook\AddressBook\target\classes\com\example\AddressBook\service\AddressService.class]
+2025-03-08 16:02:14 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-03-08 16:02:14 [restartedMain] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.AutoConfigurationPackages'
+2025-03-08 16:02:14 [restartedMain] DEBUG o.s.b.a.AutoConfigurationPackages - @EnableAutoConfiguration was declared on a class in the package 'com.example.AddressBook'. Automatic @Repository and @Entity scanning is enabled.
+2025-03-08 16:02:15 [restartedMain] DEBUG o.s.d.r.c.RepositoryConfigurationDelegate - Scanning for JPA repositories in packages com.example.AddressBook.
+2025-03-08 16:02:15 [restartedMain] DEBUG o.s.d.r.c.RepositoryComponentProvider - Identified candidate component class: file [C:\Users\HP\Downloads\AddressBook\AddressBook\target\classes\com\example\AddressBook\repository\AddressBookRepository.class]
+2025-03-08 16:02:15 [restartedMain] DEBUG o.s.d.r.c.RepositoryComponentProvider - Identified candidate component class: file [C:\Users\HP\Downloads\AddressBook\AddressBook\target\classes\com\example\AddressBook\repository\AddressRepository.class]
+2025-03-08 16:02:17 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 1985 ms. Found 2 JPA repository interfaces.
+2025-03-08 16:02:17 [SIGINT handler] DEBUG java.lang.Runtime - Runtime.exit() called with status: 130
+java.lang.Throwable: Runtime.exit(130)
+	at java.base/java.lang.Shutdown.logRuntimeExit(Shutdown.java:179)
+	at java.base/java.lang.Shutdown.exit(Shutdown.java:160)
+	at java.base/java.lang.Terminator$1.handle(Terminator.java:51)
+	at java.base/jdk.internal.misc.Signal$1.run(Signal.java:218)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+2025-03-08 16:02:19 [restartedMain] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'propertySourcesPlaceholderConfigurer'
+2025-03-08 16:02:19 [restartedMain] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'emBeanDefinitionRegistrarPostProcessor'
+2025-03-08 16:02:19 [restartedMain] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.sql.init.dependency.DatabaseInitializationDependencyConfigurer$DependsOnDatabaseInitializationPostProcessor'
+2025-03-08 16:02:19 [restartedMain] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.devtools.autoconfigure.DevToolsDataSourceAutoConfiguration$DatabaseShutdownExecutorEntityManagerFactoryDependsOnPostProcessor'
+2025-03-08 16:02:19 [restartedMain] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+2025-03-08 16:02:19 [restartedMain] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'preserveErrorControllerTargetClassPostProcessor'
+2025-03-08 16:02:19 [restartedMain] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+2025-03-08 16:02:19 [restartedMain] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.transaction.config.internalTransactionalEventListenerFactory'
+2025-03-08 16:02:19 [restartedMain] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2025-03-08 16:02:19 [restartedMain] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2025-03-08 16:02:19 [restartedMain] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalPersistenceAnnotationProcessor'
+2025-03-08 16:02:19 [restartedMain] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.context.properties.ConfigurationPropertiesBindingPostProcessor'
+2025-03-08 16:02:19 [restartedMain] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.context.internalConfigurationPropertiesBinder'
+2025-03-08 16:02:19 [restartedMain] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'jdbcConnectionDetailsHikariBeanPostProcessor'
+2025-03-08 16:02:19 [restartedMain] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'methodValidationPostProcessor'
+2025-03-08 16:02:19 [restartedMain] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'methodValidationPostProcessor' via factory method to bean named 'environment'
+2025-03-08 16:02:19 [restartedMain] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.context.properties.EnableConfigurationPropertiesRegistrar.methodValidationExcludeFilter'
+2025-03-08 16:02:19 [restartedMain] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
+2025-03-08 16:02:19 [restartedMain] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'persistenceExceptionTranslationPostProcessor'
+2025-03-08 16:02:19 [restartedMain] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'persistenceExceptionTranslationPostProcessor' via factory method to bean named 'environment'
+2025-03-08 16:02:19 [restartedMain] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'webServerFactoryCustomizerBeanPostProcessor'
+2025-03-08 16:02:19 [restartedMain] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'errorPageRegistrarBeanPostProcessor'
+2025-03-08 16:02:19 [restartedMain] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'projectingArgumentResolverBeanPostProcessor'
+2025-03-08 16:02:19 [restartedMain] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+2025-03-08 16:02:19 [restartedMain] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration'
+2025-03-08 16:02:19 [restartedMain] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'transactionAttributeSource'
+2025-03-08 16:02:19 [restartedMain] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'transactionInterceptor'
+2025-03-08 16:02:19 [restartedMain] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'transactionInterceptor' via factory method to bean named 'transactionAttributeSource'
+2025-03-08 16:02:19 [restartedMain] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'org.springframework.transaction.config.internalTransactionAdvisor' via factory method to bean named 'transactionAttributeSource'
+2025-03-08 16:02:19 [restartedMain] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'org.springframework.transaction.config.internalTransactionAdvisor' via factory method to bean named 'transactionInterceptor'
+2025-03-08 16:02:20 [restartedMain] DEBUG o.s.u.c.s.UiApplicationContextUtils - Unable to locate ThemeSource with name 'themeSource': using default [org.springframework.ui.context.support.ResourceBundleThemeSource@43fec7dc]
+2025-03-08 16:02:20 [restartedMain] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'tomcatServletWebServerFactory'
+2025-03-08 16:02:20 [restartedMain] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.web.servlet.ServletWebServerFactoryConfiguration$EmbeddedTomcat'
+2025-03-08 16:02:20 [restartedMain] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'websocketServletWebServerCustomizer'
+2025-03-08 16:02:20 [restartedMain] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.websocket.servlet.WebSocketServletAutoConfiguration$TomcatWebSocketConfiguration'
+2025-03-08 16:02:20 [restartedMain] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'servletWebServerFactoryCustomizer'
+2025-03-08 16:02:20 [restartedMain] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.web.servlet.ServletWebServerFactoryAutoConfiguration'
+2025-03-08 16:02:20 [restartedMain] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'server-org.springframework.boot.autoconfigure.web.ServerProperties'
+2025-03-08 16:02:20 [restartedMain] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.context.properties.BoundConfigurationProperties'
+2025-03-08 16:02:20 [restartedMain] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'servletWebServerFactoryCustomizer' via factory method to bean named 'server-org.springframework.boot.autoconfigure.web.ServerProperties'
+2025-03-08 16:02:20 [restartedMain] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'sslBundleRegistry'
+2025-03-08 16:02:20 [restartedMain] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.ssl.SslAutoConfiguration'
+2025-03-08 16:02:20 [restartedMain] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'spring.ssl-org.springframework.boot.autoconfigure.ssl.SslProperties'
+2025-03-08 16:02:20 [restartedMain] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'org.springframework.boot.autoconfigure.ssl.SslAutoConfiguration' via constructor to bean named 'org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@7c1b7378'
+2025-03-08 16:02:20 [restartedMain] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'org.springframework.boot.autoconfigure.ssl.SslAutoConfiguration' via constructor to bean named 'spring.ssl-org.springframework.boot.autoconfigure.ssl.SslProperties'
+2025-03-08 16:02:20 [restartedMain] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'sslPropertiesSslBundleRegistrar'
+2025-03-08 16:02:20 [restartedMain] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'fileWatcher'
+2025-03-08 16:02:20 [restartedMain] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'sslPropertiesSslBundleRegistrar' via factory method to bean named 'fileWatcher'
+2025-03-08 16:02:20 [restartedMain] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'tomcatServletWebServerFactoryCustomizer'
+2025-03-08 16:02:20 [restartedMain] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'tomcatServletWebServerFactoryCustomizer' via factory method to bean named 'server-org.springframework.boot.autoconfigure.web.ServerProperties'
+2025-03-08 16:02:20 [restartedMain] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'tomcatWebServerFactoryCustomizer'
+2025-03-08 16:02:20 [restartedMain] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.web.embedded.EmbeddedWebServerFactoryCustomizerAutoConfiguration$TomcatWebServerFactoryCustomizerConfiguration'
+2025-03-08 16:02:20 [restartedMain] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'tomcatWebServerFactoryCustomizer' via factory method to bean named 'environment'
+2025-03-08 16:02:20 [restartedMain] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'tomcatWebServerFactoryCustomizer' via factory method to bean named 'server-org.springframework.boot.autoconfigure.web.ServerProperties'
+2025-03-08 16:02:20 [restartedMain] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'localeCharsetMappingsCustomizer'
+2025-03-08 16:02:20 [restartedMain] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.web.servlet.HttpEncodingAutoConfiguration'
+2025-03-08 16:02:20 [restartedMain] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'org.springframework.boot.autoconfigure.web.servlet.HttpEncodingAutoConfiguration' via constructor to bean named 'server-org.springframework.boot.autoconfigure.web.ServerProperties'
+2025-03-08 16:02:20 [restartedMain] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'errorPageCustomizer'
+2025-03-08 16:02:20 [restartedMain] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration'
+2025-03-08 16:02:20 [restartedMain] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration' via constructor to bean named 'server-org.springframework.boot.autoconfigure.web.ServerProperties'
+2025-03-08 16:02:20 [restartedMain] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'dispatcherServletRegistration'
+2025-03-08 16:02:20 [restartedMain] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.web.servlet.DispatcherServletAutoConfiguration$DispatcherServletRegistrationConfiguration'
+2025-03-08 16:02:20 [restartedMain] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'dispatcherServlet'
+2025-03-08 16:02:20 [restartedMain] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.web.servlet.DispatcherServletAutoConfiguration$DispatcherServletConfiguration'
+2025-03-08 16:02:20 [restartedMain] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'spring.mvc-org.springframework.boot.autoconfigure.web.servlet.WebMvcProperties'
+2025-03-08 16:02:20 [restartedMain] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'dispatcherServlet' via factory method to bean named 'spring.mvc-org.springframework.boot.autoconfigure.web.servlet.WebMvcProperties'
+2025-03-08 16:02:21 [restartedMain] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'dispatcherServletRegistration' via factory method to bean named 'dispatcherServlet'
+2025-03-08 16:02:21 [restartedMain] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'dispatcherServletRegistration' via factory method to bean named 'spring.mvc-org.springframework.boot.autoconfigure.web.servlet.WebMvcProperties'
+2025-03-08 16:02:21 [restartedMain] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'multipartConfigElement'
+2025-03-08 16:02:21 [restartedMain] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.web.servlet.MultipartAutoConfiguration'
+2025-03-08 16:02:21 [restartedMain] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'spring.servlet.multipart-org.springframework.boot.autoconfigure.web.servlet.MultipartProperties'
+2025-03-08 16:02:21 [restartedMain] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'org.springframework.boot.autoconfigure.web.servlet.MultipartAutoConfiguration' via constructor to bean named 'spring.servlet.multipart-org.springframework.boot.autoconfigure.web.servlet.MultipartProperties'
+2025-03-08 16:02:21 [restartedMain] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'errorPageCustomizer' via factory method to bean named 'dispatcherServletRegistration'
+2025-03-08 16:02:22 [restartedMain] DEBUG o.s.b.w.e.t.TomcatServletWebServerFactory - Code archive: C:\Users\HP\.m2\repository\org\springframework\boot\spring-boot\3.4.3\spring-boot-3.4.3.jar
+2025-03-08 16:02:22 [restartedMain] DEBUG o.s.b.w.e.t.TomcatServletWebServerFactory - Code archive: C:\Users\HP\.m2\repository\org\springframework\boot\spring-boot\3.4.3\spring-boot-3.4.3.jar
+2025-03-08 16:02:22 [restartedMain] DEBUG o.s.b.w.e.t.TomcatServletWebServerFactory - None of the document roots [src/main/webapp, public, static] point to a directory and will be ignored.
